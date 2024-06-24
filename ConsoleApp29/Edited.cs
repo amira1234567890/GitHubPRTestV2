@@ -18,5 +18,11 @@ namespace ConsoleApp29
             this.Method();
             this.Method();
         }
+
+        public void Method3()
+        {
+            this.Method2();
+            this.Method();
+        }
     }
 }
